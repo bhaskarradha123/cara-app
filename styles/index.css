@@ -141,3 +141,19 @@ li a:hover::after {
     border-radius: 5px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
 }
+
+.feature .fe-item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.feature .fe-item h6{
+  color: #088178;
+  padding: 9px 8px 6px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.feature .fe-item:nth-child(1) h6{
+  background-color: #f6bcbc;
+}
