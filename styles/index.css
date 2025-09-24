@@ -122,3 +122,22 @@ li a:hover::after {
 }
 
 
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#section-p1{
+  padding: 40px 80px;
+}
+
+.feature .fe-item{
+    padding: 25px 15px;
+    margin: 15px 0;
+    width: 180px;
+    text-align: center;
+    border: 1px solid #cce7d0;
+    border-radius: 5px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+}
